@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ej-2-sharepoint-client-side-solution",
+    "id": "01f0de7f-839b-4dd2-b868-de711c230ff7",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "ej-2-sharepoint description"
+      },
+      "longDescription": {
+        "default": "ej-2-sharepoint description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "ej-2-sharepoint Feature",
+        "description": "The feature that activates elements of the ej-2-sharepoint solution.",
+        "id": "4ef3cfee-3a29-4564-a99f-6d51355dcb59",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/ej-2-sharepoint.sppkg"
+  }
+}
