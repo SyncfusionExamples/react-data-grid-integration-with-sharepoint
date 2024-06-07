@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "react-grid-component-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reactGridComponent/ReactGridComponentWebPart.js",
+          "manifest": "./src/webparts/reactGridComponent/ReactGridComponentWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReactGridComponentWebPartStrings": "lib/webparts/reactGridComponent/loc/{locale}.js"
+  }
+}
